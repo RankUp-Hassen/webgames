@@ -1,0 +1,14 @@
+site:
+  title: "WebGames"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/webgames.js"
+      api: "build/libs/webgames.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/webgames.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
